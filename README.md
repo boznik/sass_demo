@@ -3,7 +3,7 @@
 Instructors
 ---
 
-[josephgknox](https://github.com/josephgknox) and [boznik](https://github.com/josephgknox)
+[josephgknox](https://github.com/josephgknox) and [boznik](https://github.com/boznik)
 
 Description
 ---

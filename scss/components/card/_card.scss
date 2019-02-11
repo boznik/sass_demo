@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+//
+// Card
+//
+// One of the primary building block compontents. This card component comes with
+// several fields to ensure flexibility.
+//
+
+.su-card {
+  @include box-shadow('shallow');
+  font-family: $font-sans;
+  width: 1000px;
+
+  > img {
+    width: 100%;
+    // Hide the image on the smallest screen sizes.
+    @include grid-media-only('xs') {
+      display: none;
+    }
+  }
+}
+
+// Card contents spacing.
+.su-card__contents {
+  @include modular-spacing(2);
+
+  > h5 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 17px;
+    margin-top: 0 0 11px;
+    text-transform: uppercase;
+
+    @include grid-media('md') {
+      margin-bottom: 12px;
+    }
+
+    @include grid-media('xl') {
+      margin-bottom: 13px;
+    }
+
+  }
+
+  > h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 31px;
+    margin: 0 0 18px;
+
+    @include grid-media('xl') {
+      margin-bottom: 19px;
+    }
+
+  }
+
+}
+
+// Button to click on.
+.su-card__button {
+  text-align: center;
+  a {
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 1rem 2rem 1.15rem;
+    background-color: $color-bright-red;
+    border: 0;
+    color: $color-white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: $font-bold;
+    line-height: 1;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    transition: background-color .25s ease-in-out, color .25s ease-in-out;
+
+    @include grid-media("sm") {
+      width: auto;
+    }
+
+    &:hover {
+      background-color: $color-black;
+      border-bottom: 0;
+      color: $color-white;
+      text-decoration: none;
+    }
+
+    &:focus {
+      background-color: $color-black;
+      box-shadow: $focus-shadow;
+    }
+  }
+}

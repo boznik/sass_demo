@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+//
+// Magic Numbers
+//
+// Unique and resuable values with multiple occurrences.
+//
+
+//
+// $text-max-width
+//
+// For setting a max-width to a portion of text.
+//
+
+$text-max-width: 70rem !default;
+
+//
+// $lead-max-width
+//
+// For setting the max-width for the lead font style.
+//
+
+$lead-max-width: 85rem !default;
+
+//
+// $site-max-width
+//
+// For setting the max-width of the project's grid system.
+//
+
+$site-max-width: 1500px !default;
+
+//
+// $input-max-width
+//
+// For setting the max-width of input fields.
+//
+
+$input-max-width: 46rem !default;
+
+//
+// $border-radius
+//
+// For setting the default border-radius.
+//
+
+$border-radius: 3px !default;
+
+//
+// $focus-shadow
+//
+// For settings the default focus to be applied to items in their focus state.
+//
+
+$focus-shadow: 0 0 3px $color-cool-grey, 0 0 7px $color-cool-grey !default;

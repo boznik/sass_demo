@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+//
+// @modular-spacing
+//
+// A mixin for adding spacing (margin or padding) between elements or between an element and the edge of its container.
+// The amount of spacing is returned using a unitless scaling system with a curated scale.
+//
+
+@mixin modular-spacing($step: 0, $property: 'padding', $grid: $grid-media) {
+  @each $key, $breakpoint in $grid {
+    @include grid-media($key) {
+      #{$property}: (calculate-modular-spacing($step, $key));
+    }
+  }
+}

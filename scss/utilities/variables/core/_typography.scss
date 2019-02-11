@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+//
+// Typography
+//
+
+//
+// $root-font-size
+//
+// Font size.
+//
+
+$root-font-size: 10px;
+
+//
+// $base-font-size
+//
+// Font size.
+//
+
+$base-font-size: 2rem !default;
+
+//
+// $small-font-size
+//
+// Font size.
+//
+
+$small-font-size: 1.7rem !default;
+
+//
+// $lead-font-size
+//
+// Font size.
+//
+
+$lead-font-size: 2.3rem !default;
+
+//
+// $splash-font-size
+//
+// Font size.
+//
+
+$splash-font-size: 5.5rem !default;
+
+//
+// $h1-font-size
+//
+// Font size.
+//
+
+$h1-font-size: 4.3rem !default;
+
+//
+// $h2-font-size
+//
+// Font size.
+//
+
+$h2-font-size: 3.3rem !default;
+
+//
+// $h3-font-size
+//
+// Font size.
+//
+
+$h3-font-size: 2.3rem !default;
+
+//
+// $h4-font-size
+//
+// Font size.
+//
+
+$h4-font-size: 2rem !default;
+
+//
+// $h5-font-size
+//
+// Font size.
+//
+
+$h5-font-size: 1.8rem !default;
+
+//
+// $h6-font-size
+//
+// Font size.
+//
+
+$h6-font-size: 1.6rem !default;
+
+
+//
+// $base-line-height
+//
+// Default line height.
+//
+
+$base-line-height: 1.4 !default;
+
+//
+// $heading-line-height
+//
+// Default line height.
+//
+
+$heading-line-height: 1.2 !default;
+
+//
+// $lead-line-height
+//
+// Default line height.
+//
+
+$lead-line-height: 1.5 !default;
+
+
+//
+// $font-sans
+//
+// font-sans Font family.
+//
+
+$font-sans: 'Source Sans Pro' !default;
+
+//
+// $font-serif
+//
+// font-serif Font family.
+//
+
+$font-serif: 'Source Serif Pro' !default;
+
+//
+// $font-slab
+//
+// font-slab Font family.
+//
+
+$font-slab: 'Roboto Slab' !default;
+
+//
+// $font-handwriting
+//
+// font-script Font family.
+//
+
+$font-handwriting: 'Kalam' !default;
+
+//
+// $font-sanskrit
+//
+// font-sanskrit Font family.
+//
+
+$font-sanskrit: 'Noto Sans' !default;
+
+//
+// $font-x-light
+//
+// font-x-light Font weight.
+//
+
+$font-x-light: 100 !default;
+
+//
+// $font-light
+//
+// font-light Font weight.
+//
+
+$font-light: 200 !default;
+
+//
+// $font-normal
+//
+// font-normal Font weight.
+//
+
+$font-normal: 400 !default;
+
+//
+// $font-bold
+//
+// font-bold Font weight.
+//
+
+$font-bold: 600 !default;
+
+//
+// $font-x-bold
+//
+// font-x-bold Font weight.
+//
+
+$font-x-bold: 700 !default;

@@ -11,9 +11,14 @@
   @include box-shadow('shallow');
   font-family: $font-sans;
   width: 1000px;
+  
+  @media (max-width: 1000px) {
+    width: auto;
+  }
 
   > img {
     width: 100%;
+
     // Hide the image on the smallest screen sizes.
     @include grid-media-only('xs') {
       display: none;
